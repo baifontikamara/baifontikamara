@@ -28,7 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/20170317_120924.JPG');
+    background-image: url('../images/20170317_120924.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -145,15 +145,15 @@ header .header-content .header-content-inner p {
 }
 
 .item-1 {
-	background: url('../images/20161025_094311.JPG');
+	background: url('../images/20161025_094311.jpg');
 	}
 	
 .item-2 {
-	background: url('../images/20170210_103454.JPG');
+	background: url('../images/20170210_103454.jpg');
 	}
 	
 .item-3 {
-	background: url('../images/20170317_120727.JPG');
+	background: url('../images/20170317_120727.jpg');
 	}
 		
 .item-1,
