@@ -1,142 +1,208 @@
 <!DOCTYPE html>
-<html>
-<link href="style.css" rel="stylesheet" >
+<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
+Although you can use them, for a more unique website, replace these images with your own. -->
+<html lang="en">
+
 <head>
-	<title>HOME</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Business 2</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
 </head>
+
 <body>
-	<style type="text/css">
-		
-		body{
-	background: url('github.jpg') no-repeat;
-	background-size: cover;
-	font-family: vardana;
-	font-size: 20px;
-	margin: 0;
-	line-height: 24px;
-}
 
-.navbar{
-	text-align: center;
-	width: 100%;
-	background: blue;
-	opacity: 0.6;
+    <!-- Navigation -->
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                	<span class="glyphicon glyphicon-fire"></span> 
+                	LOGO
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="#">Engage</a></li>
+							<li><a href="#">Pontificate</a></li>
+							<li><a href="#">Synergize</a></li>
+						</ul>
+					</li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
 
-}
-.navbar ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	position: relative;
-}
-.navbar ul li a{
-	display: block;
-	padding: 25px;
-	color: white;
-	text-decoration: none;
-	width: 150px;
-}
-.navbar ul:after{
-	content: ""; clear: both;
-    display: block;
-}
-.navbar ul li{
-	float: left;
-	list-style: none;
-}
-.navbar ul ul{
-	display: none;
-}
-.navbar ul li:hover>ul{
-	display: block;
-}
-.navbar ul li:hover{
-	background: black;
-	transition: 0.9s;
-}
-.navbar ul li:hover a{
-	color: white;
-}
-.navbar ul ul {
-	background: black;
-	padding: 0;
-	margin: 0;
-	position: absolute; top: 100%;
-}
-.navbar ul ul li{
-	float: none;
-	position: relative;
-}	
-.navbar ul ul li a{
-	padding: 25px;
-	color: white;
-	width: 300px;
-	text-align: left;
-}
-.navbar ul ul li a:hover{
-	background: lightblue;
-	color: black;
-	transition: 0.9s;
-}
-#content{
-	color: black;
-	margin-top: 200px;
-	width: 100%;
-	text-align: center;
-}
-#content h1{
-	font-size: 80px;
-	font-weight: normal;
-	margin-bottom: 10px;
-}
-#content h5{
-	font-weight: normal;
-	margin-top: 0;
-	letter-spacing: 10px;
-}
-footer{
-	background: blue;
-	color: #fff;
-	padding: 18px;
-	margin-top: 265px;
-}
-.footerLeft, .footerRight{
-	display: inline-block;
-}
-.footerLeft a{
-	color: #bbb;
-	text-decoration: none;
-	padding: 5px;
-}
-.footerLeft a:hover{
-		color:#fff;
-}
-.footerRight{
-	float: right;
-}
-	</style>
-<DIV class = 'navbar'> 
-<ul>
-	<li><a href = "homepage.php" title="home">Home</a></li>
-	<li><a href = "kids.php" title="services">Services</a></li>
-	<li><a href = "contact.php" title="contact">Contact</a></li>
-	<li><a href = "aboutus.php" title="about">About</a></li>
-</ul>
-</DIV>
+	<!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>BAI FONTI KAMARA</h1>
+                <p>Objectively innovate, empowered young ones that want to lear from me.</p>
+                <a href="#" class="btn btn-primary btn-lg">Engage Now</a>
+            </div>
+        </div>
+    </header>
 
-<div id="content">
-	<h1>BAI FONTI KAMARA</h1>
-    <h5>905001510  BIT2201</h5>
-</div>
-<footer>
-	<div class="footerLeft">
-		<a href="#">Privacy</a>
-		<a href="contact.php">Contact</a>
-		<a href="aboutus.php">About</a>
-	</div>
-	<div class="footerRight">
-		All rights Reserver &copy, 2019
-	</div>
-</footer>
+	<!-- Intro Section -->
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                	<span class="glyphicon glyphicon-apple" style="font-size: 60px"></span>
+                    <h2 class="section-heading">This is my first github website</h2>
+                    <p class="text-light">coming up very strong</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- Content 1 -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/IMG_20180628_140316.JPG" alt="">
+                </div>
+                <div class="col-sm-6">
+                	<h2 class="section-header">Brief about me</h2>
+                	<p class="lead text-muted">This is Bai Fonti Kamara, From Tagrin-Lungi, at the limkokwing university studying Informatin Technology</p>
+                	<a href="#" class="btn btn-primary btn-lg">Read more</a>
+                </div>                
+                
+            </div>
+        </div>
+    </section>
+
+	<!-- Content 2 -->
+     <section class="content content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h2 class="section-header">MACAVELI</h2>
+                	<p class="lead text-light">This is my first website, you will see lot of me here.</p>
+                	<a href="#" class="btn btn-default btn-lg">More</a>
+                </div>    
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/20160926_173335.JPG" alt="">
+                </div>            
+                
+            </div>
+        </div>
+    </section>    
+
+    <!-- Promos -->
+	<div class="container-fluid">
+        <div class="row promo">
+        	<a href="#">
+				<div class="col-md-4 promo-item item-1">
+					<h3>
+						GROUP PHOTOGRAPH
+					</h3>
+				</div>
+            </a>
+            <a href="#">
+				<div class="col-md-4 promo-item item-2">
+					<h3>
+						CLASSROOM
+					</h3>
+				</div>
+            </a>
+			
+			<a href="#">
+				<div class="col-md-4 promo-item item-3">
+					<h3>
+						LIMKOKWING UNIVERSITY LAUNCHING
+					</h3>
+				</div>
+            </a>
+        </div>
+    </div><!-- /.container-fluid -->
+
+	<!-- Content 3 -->
+     <section class="content content-3">
+        <div class="container">
+			<h2 class="section-header"><span class="glyphicon glyphicon-pushpin text-primary"></span><br> FONTI K.</h2>
+			<p class="lead text-muted">TRYING TO BECOME A WEB DEVELOPER</p> 
+                    <a href="#" class="btn btn-primary btn-lg">Check Now</a>               
+            </div>
+        </div>
+    </section>
+    
+	<!-- Footer -->
+    <footer class="page-footer">
+    
+    	<!-- Contact Us -->
+        <div class="contact">
+        	<div class="container">
+				<h2 class="section-heading">Contact Me</h2>
+				<p><span class="glyphicon glyphicon-earphone"></span><br> +23299887821</p>
+				<p><span class="glyphicon glyphicon-envelope"></span><br> Kamarabaifonti@gmail.com</p>
+        	</div>
+        </div>
+        	
+        <!-- Copyright etc -->
+        <div class="small-print">
+        	<div class="container">
+        		<p>Copyright &copy; kamarabaifonti@gmail.com 2019</p>
+        	</div>
+        </div>
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    
+    <!-- Custom Javascript -->
+    <script src="js/custom.js"></script>
+
 </body>
+
 </html>
